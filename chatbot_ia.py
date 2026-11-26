@@ -97,7 +97,7 @@ def enviar(_):
     caja.value = ""
     clase, conf, resp = responder(q)
     with salida:
-        print(f"Tú: {q}\nTutorIA [{clase} | Confianza: {conf*100:.1f}%]:\n{resp}\n" + "-"*50)
+        print(f"Tú: {q}\nChatbot_educativo [{clase} | Confianza: {conf*100:.1f}%]:\n{resp}\n" + "-"*50)
 
 btn.on_click(enviar)
 with salida:
